@@ -1,0 +1,128 @@
+@import "../../styles/main.scss";
+
+a {
+    text-decoration: none;
+    color: $white-color;
+}
+
+p {
+    text-align: left;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+input {
+    border:0;
+    background-color: $log-in-bg;
+    color: $white-color;
+    width: 40vw;
+    height: 7vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    border-bottom: 2px solid $log-in-heading-color;;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: $log-in-bg;
+}
+
+.registr {
+    margin-bottom: 4.9%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    &__form {
+        height: 100%;
+        width: 73.4%;
+    }
+
+    &__title {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        color: $log-in-heading-color;
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    &__hint {
+        margin-top: 15%;
+        color: $white-color;
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 29px;
+        text-align: center;
+    }
+}
+
+.login_form {
+    height: 60.7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__btn {
+        width: 34.2%;
+        height: 17.2%;
+        border-radius: 13px;
+        background-color: $sign-up-btn-color;
+        color: $sign-up-btn-txt;
+        font-style: normal;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+        border: 0;
+        margin: 20px 0 20px 0;
+    }
+}
+
+.pass_link {
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: right;
+}
+
+.link {
+    opacity: 0.6;
+}
+
+.hint {
+    opacity: 0.4;
+}
+
+.label {
+
+
+    &__title {
+        font-family: 'Josefin Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 33px;
+        color: $log-in-subheading-color;
+    }
+}
+
+.logInBg {
+    width: 50%;
+}
+
