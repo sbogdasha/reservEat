@@ -13,6 +13,7 @@
         justify-content: space-between;
         align-items: center;
     }
+
     
     &__inputs {
         width: 83%;
@@ -25,6 +26,11 @@
         backdrop-filter: blur(15px);
     }
 
+    &__inputs--dark {
+        background-color: $search-dark-bg;
+        backdrop-filter: none;
+    }
+
     &__btn {
         width: 14%;
         height: 30%;
@@ -35,6 +41,11 @@
         font-weight: 700;
         border-radius: 13px;
         border: none;
+    }
+
+    &__btn--dark {
+        background-color: $search-button-dark;
+        color: $white-color;
     }
 
     &__time, &__date, &__visit {

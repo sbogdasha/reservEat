@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Header/Header';
 import './Register.scss';
 
 export default function Register() {

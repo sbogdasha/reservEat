@@ -1,4 +1,4 @@
-export const listOfRestaurants = [
+export const restaurants = [
     {
         "name": "Restaurant 1",
         "description": "This is the best restaurant in town!",

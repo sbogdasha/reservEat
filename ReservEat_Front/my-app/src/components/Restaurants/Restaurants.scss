@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.restaurants__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    height: 90vh;
+    padding-top: 20vh;
+    background-color: $main-bg-color;
+}
+
+.restaurants {
+    background-color: $main-bg-color;
+}
+
+.restaurant {
+    width: 30vw;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurant > p {
+    background-color: $white-color;
+    width: 25vw;
+    line-height: 100px;
+    position: relative;
+    bottom: 70px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: $restaurants-txt-color;
+}
+
+.restaurant > img {
+    height: 400px;
+    width: 25vw;
+}
