@@ -108,3 +108,12 @@
 
     
 }
+
+@media screen and (min-width: 1439px) {
+    .search {
+        &__btn {
+            font-size: 32px;
+            border-radius: 23px;
+        }
+    }
+  }

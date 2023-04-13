@@ -53,21 +53,21 @@ export default function Details(props) {
                         <button className="rest__btn btn">Reserve</button>
                     </div>
                     <Slider {...settings}>
-                        <div>
+                        <div className='slider--left'>
                             <img src={window.location.origin + "/img/slide1.png"}></img>
                             <img src={window.location.origin + "/img/slide2.png"}></img>
                         </div>
                         <div>
                             <img src={window.location.origin + "/img/slide3.png"}></img>
                         </div>
-                        <div>
+                        <div className='slider--left'>
                             <img src={window.location.origin + "/img/slide1.png"}></img>
                             <img src={window.location.origin + "/img/slide2.png"}></img>
                         </div>
                         <div>
                             <img src={window.location.origin + "/img/slide3.png"}></img>
                         </div>
-                        <div>
+                        <div className='slider--left'>
                             <img src={window.location.origin + "/img/slide1.png"}></img>
                             <img src={window.location.origin + "/img/slide2.png"}></img>
                         </div>

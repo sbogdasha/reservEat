@@ -10,7 +10,7 @@ import Details from './components/Details/Details';
 function App() {
   return (
     <div className="App">
-      <Restaurants></Restaurants>
+      <Details></Details>
     </div>
   );
 }

@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    height: 90vh;
+    height: 110vh;
     padding-top: 20vh;
     background-color: $main-bg-color;
 }
@@ -14,21 +14,23 @@
 }
 
 .restaurant {
-    width: 30vw;
-    height: 10vh;
+    width: 23.8vw;
+    height: 23.8vw;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 3.5vw;
+    margin-left: 3.5vw;
 }
 
 .restaurant > p {
     background-color: $white-color;
-    width: 25vw;
+    width: 23.8vw;
     line-height: 100px;
     position: relative;
-    bottom: 70px;
+    bottom: 80px;
     font-weight: 700;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
@@ -36,6 +38,12 @@
 }
 
 .restaurant > img {
-    height: 400px;
-    width: 25vw;
+    width: 23.8vw;
+    height: 23.8vw;
 }
+
+@media screen and (min-width: 1439px) {
+    .restaurant > p {
+        font-size: 36px;
+    }
+  }

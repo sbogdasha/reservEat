@@ -1,7 +1,7 @@
 @import "../../styles/main.scss";
 
 .header_rest {
-    height: 150px;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -13,19 +13,31 @@
     background-size: 100%; /* Современные браузеры */
 
     &__btn {
-        width: 250px;
-        height: 75px;
-        background-color: $brown-btn-color;
-        border-radius: 13px;
+        width: 13vw;
+        height: 58%;
+        background-color: $white-color;
+        border-radius: 15px;
         border: none;
         font-family: 'Josefin Sans', sans-serif;
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 700;
         color: $white-color;
-        margin-right: 100px
+        margin-right: 100px;
+        color: $log-in-bg;
     }
 }
 
 .header_rest > img {
     padding-left: 100px;
+    width: 74px;
+    height: 45px;
 }
+
+@media screen and (min-width: 1439px) {
+    .header_rest {
+        &__btn {
+            font-size: 32px;
+            border-radius: 23px;
+        }
+    }
+  }
