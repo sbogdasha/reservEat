@@ -6,11 +6,12 @@ import Register from './components/Register/Register';
 import Restaurants from './components/Restaurants/Restaurants';
 import Map from './components/Map/Map';
 import Details from './components/Details/Details';
+import Reservation from './components/Reservation/Reservation';
 
 function App() {
   return (
     <div className="App">
-      <Details></Details>
+      <Reservation></Reservation>
     </div>
   );
 }
