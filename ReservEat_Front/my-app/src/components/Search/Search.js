@@ -1,7 +1,9 @@
 import React from 'react';
 import './Search.scss';
+import { useNavigate } from 'react-router-dom' ;
 
 export default function Search() {
+    const navigate = useNavigate ( ) ; 
 
     return (
         <div className="search">
@@ -30,7 +32,7 @@ export default function Search() {
 
                         <input className="input input__search-rest" placeholder='&#128269; Enter restaurant name' type="search" name="search-rest" id="search-rest"/>
                     </div>    
-                    <button type="submit" className="search__btn btn">Search</button>
+                    <button type="submit" className="search__btn btn" onClick = { ( ) => navigate ( 'restaurants' ) }>Search</button>
                 </div>
             </div>
     );

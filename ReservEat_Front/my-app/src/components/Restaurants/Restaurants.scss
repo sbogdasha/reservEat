@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content:center;
     height: 110vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
     background-color: $main-bg-color;
 }
 
@@ -14,6 +14,7 @@
 }
 
 .restaurant {
+    position: relative;
     width: 23.8vw;
     height: 23.8vw;
     text-align: center;
@@ -23,6 +24,31 @@
     align-items: center;
     margin-right: 3.5vw;
     margin-left: 3.5vw;
+
+    &__details {
+        width: 23.8vw;
+        height: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 3.5vw;
+        position: relative;
+        bottom: 33vh;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        color: $white-color;
+        background-color: rgba(0, 0, 0, 0.72);
+        z-index: -3;
+    }
+
+    &__details:hover {
+        z-index: 999;
+    }
+}
+
+div:hover >  .restaurant__details {
+    z-index: 999;
 }
 
 .restaurant > p {

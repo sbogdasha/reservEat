@@ -1,0 +1,33 @@
+@import "../../styles/main.scss";
+
+.footer {
+    height: 10vh;
+    display: flex;
+    background-color: $footer-bg;
+
+    &__reserve-rights, &__socials {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 26px;
+        color: $restaurants-txt-color;
+    }
+
+    &__reserve-rights {
+        padding-left: 5vw;
+    }
+
+    &__socials {
+        justify-content: flex-end;
+        padding-right: 5vw;
+    }
+}
+
+.socials {
+    &__link {
+        color: $restaurants-txt-color;
+        padding-left: 5%;
+    }
+}

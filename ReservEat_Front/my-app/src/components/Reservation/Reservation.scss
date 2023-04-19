@@ -8,5 +8,79 @@
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 82.6%;
+        border: 3px solid rgba(242, 242, 242, 0.8);
+        background: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(8.5px);
+        border-radius: 15%;
+    }
+
+    &__form, &__search-btn {
+        font-weight: 700;
+        font-size: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    &__form {
+        height: 64.6%;
+        width: 71%;
+        color: $white-color;
+    }
+
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50%;
+        font-size: 40px;
+    }
+
+    &__date, &__time, &__visit {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__visit-num, &__input-time , &__input-date {
+        width: 40%;
+        height: 120%;
+        background-color: $form-input-color;
+        font-family: 'Josefin Sans', sans-serif;
+        color: $reserve-form-text-input;
+        text-align: center;
+    }
+
+    &__search-btn {
+        width: 31.6%;
+        height: 12.6%;
+        color: $reserve-button;
+        border-radius: 14px;
+        border: 0;
+        font-size: 36px;
+    }
+
 }
 
+.info {
+
+    &__restaurant {
+        font-size: 62px;
+        text-align: center;
+    }
+
+    &__address {
+        font-weight: 300;
+        padding-left: 5%;
+        padding-bottom: 7%;
+    }
+}
